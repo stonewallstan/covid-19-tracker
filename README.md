@@ -1,0 +1,1 @@
+This is a project built with React Native. It is currently in its infancy stage, but working more on it as Spring break progresses. 
