@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import { Header } from 'react-native-elements';
+import Locations from './components/location';
 
 export default function App() {
   return (
@@ -10,19 +11,8 @@ export default function App() {
         centerComponent = {{text: 'Covid-19 Tracker', style: { color: '#FCF7F8' }}}
         containerStyle= {{backgroundColor: '#275DAD'}}
       />
+      <Locations />
     </ScrollView>
   );
 }
 
-const styles = StyleSheet.create({
-  header: {
-    display: "flex",
-    flex: 1,
-    backgroundColor: '#275DAD',
-    color: '#FCF7F8',
-    fontSize: 'large',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: '1rem' 
-  },
-});

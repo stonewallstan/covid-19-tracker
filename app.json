@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template (TypeScript)",
+    "name": "Covid-19 Tracker",
     "slug": "covid-tracker",
     "privacy": "public",
     "sdkVersion": "36.0.0",
